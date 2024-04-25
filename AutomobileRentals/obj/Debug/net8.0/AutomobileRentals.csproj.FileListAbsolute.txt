@@ -1,0 +1,82 @@
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.AssemblyReference.cache
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.AssemblyInfoInputs.cache
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.AssemblyInfo.cs
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.CoreCompileInputs.cache
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.sourcelink.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\appsettings.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\bin\Debug\net8.0\AutomobileRentals_EntityFramework.deps.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\AutomobileRentals_EntityFramework.csproj.nuget.dgspec.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\Debug\net8.0\AutomobileRentals_EntityFramework.sourcelink.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\project.assets.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.exe
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.deps.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.runtimeconfig.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.pdb
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentalsCore.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentalsCore.pdb
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework.pdb
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.AutomobileRentals.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.build.AutomobileRentals.props
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AutomobileRentals.props
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AutomobileRentals.props
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\scopedcss\bundle\AutomobileRentals.styles.css
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.CopyComplete
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\refint\AutomobileRentals.dll
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.pdb
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.genruntimeconfig.cache
+C:\Users\0112296244083\source\repos\AutomobileRentals\AutomobileRentals\obj\Debug\net8.0\ref\AutomobileRentals.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.AssemblyReference.cache
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.AssemblyInfoInputs.cache
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.AssemblyInfo.cs
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.CoreCompileInputs.cache
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.sourcelink.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\refint\AutomobileRentals.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.pdb
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\appsettings.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\bin\Debug\net8.0\AutomobileRentals_EntityFramework.deps.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\AutomobileRentals_EntityFramework.csproj.nuget.dgspec.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\Debug\net8.0\AutomobileRentals_EntityFramework.sourcelink.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework\obj\project.assets.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.exe
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.deps.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.runtimeconfig.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals.pdb
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentalsCore.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework.dll
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentalsCore.pdb
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\bin\Debug\net8.0\AutomobileRentals_EntityFramework.pdb
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.AutomobileRentals.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.build.AutomobileRentals.props
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AutomobileRentals.props
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AutomobileRentals.props
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\scopedcss\bundle\AutomobileRentals.styles.css
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.csproj.CopyComplete
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\AutomobileRentals.genruntimeconfig.cache
+C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder (2)\AutomobileRentals\obj\Debug\net8.0\ref\AutomobileRentals.dll
