@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AutomobileRentals",
+    "\\AutomobileRentalsCore",
+    "\\AutomobileRentals\\AutomobileRentals_EntityFramework",
+    "\\AutomobileRentals\\AutomobileRentals_EntityFramework\\obj",
+    "\\AutomobileRentals\\AutomobileRentals_EntityFramework\\obj\\Release",
+    "\\AutomobileRentals\\AutomobileRentals_EntityFramework\\obj\\Release\\net8.0",
+    "\\AutomobileRentals\\obj",
+    "\\AutomobileRentals\\obj\\Debug",
+    "\\AutomobileRentals\\obj\\Debug\\net8.0"
   ],
-  "SelectedNode": "\\C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)",
+  "SelectedNode": "\\AutomobileRentals\\obj\\Debug\\net8.0\\AutomobileRentals.AssemblyInfo.cs",
   "PreviewInSolutionExplorer": false
 }

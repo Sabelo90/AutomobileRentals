@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals\\AutomobileRentals.csproj": {}
+    "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals\\AutomobileRentals.csproj": {}
   },
   "projects": {
-    "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj": {
+    "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
+        "projectUniqueName": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
         "projectName": "AutomobileRentalsCore",
-        "projectPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
+        "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
         "packagesPath": "C:\\Users\\0112296244083\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\obj\\",
+        "outputPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals\\AutomobileRentals.csproj": {
+    "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals\\AutomobileRentals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals\\AutomobileRentals.csproj",
+        "projectUniqueName": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals\\AutomobileRentals.csproj",
         "projectName": "AutomobileRentals",
-        "projectPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals\\AutomobileRentals.csproj",
+        "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals\\AutomobileRentals.csproj",
         "packagesPath": "C:\\Users\\0112296244083\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals\\obj\\",
+        "outputPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,11 +95,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj": {
-                "projectPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj"
+              "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj": {
+                "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj"
               },
-              "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj": {
-                "projectPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj"
+              "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj": {
+                "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj"
               }
             }
           }
@@ -114,6 +114,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -142,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj": {
+    "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
         "projectName": "AutomobileRentals_EntityFramework",
-        "projectPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
+        "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
         "packagesPath": "C:\\Users\\0112296244083\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0112296244083\\source\\repos\\AutomobileRentals\\AutomobileRentals_EntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -183,6 +199,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
