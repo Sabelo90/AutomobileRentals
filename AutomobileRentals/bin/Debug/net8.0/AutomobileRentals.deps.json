@@ -908,6 +908,9 @@
         }
       },
       "AutomobileRentalsCore/1.0.0": {
+        "dependencies": {
+          "AutomobileRentals_EntityFramework": "1.0.0"
+        },
         "runtime": {
           "AutomobileRentalsCore.dll": {}
         }

@@ -40,7 +40,7 @@ namespace AutomobileRentals_EntityFramework.Data
                 entity.HasIndex(e => e.bok_ref_person, "ix_bok_ref_person");
                 entity.HasKey(k => k.bok_id).HasName("pk_booking");
                 entity.Property(p => p.bok_startdate).IsRequired();
-                entity.Property(p => p.Bok_enddate).IsRequired();
+                entity.Property(p => p.bok_enddate).IsRequired();
                 entity.Property(p => p.bok_totalprice).IsRequired().HasColumnType("decimal(19, 5)");
 
                 entity.HasOne(e => e.bok_ref_personNavigation).

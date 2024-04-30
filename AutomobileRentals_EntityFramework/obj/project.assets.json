@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
       "projectName": "AutomobileRentals_EntityFramework",
-      "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
+      "projectPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder\\AutomobileRentals_EntityFramework\\AutomobileRentals_EntityFramework.csproj",
       "packagesPath": "C:\\Users\\0112296244083\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder (2)\\AutomobileRentals_EntityFramework\\obj\\",
+      "outputPath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder\\AutomobileRentals_EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -30,7 +30,7 @@ namespace AutomobileRentals_EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("bok_id"));
 
-                    b.Property<DateTime>("Bok_enddate")
+                    b.Property<DateTime>("bok_enddate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("bok_isconfirmed")
@@ -95,12 +95,12 @@ namespace AutomobileRentals_EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("veh_id"));
 
-                    b.Property<bool>("is_available")
-                        .HasColumnType("bit");
-
                     b.Property<string>("veh_brand")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("veh_is_available")
+                        .HasColumnType("bit");
 
                     b.Property<string>("veh_model")
                         .IsRequired()

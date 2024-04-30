@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AutomobileRentals_EntityFramework.Migrations
 {
     /// <inheritdoc />
-    public partial class firstDbDesign : Migration
+    public partial class PleaseWork : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,8 +36,8 @@ namespace AutomobileRentals_EntityFramework.Migrations
                     veh_brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     veh_model = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     veh_year = table.Column<int>(type: "int", nullable: false),
-                    veh_priceperday = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    is_available = table.Column<bool>(type: "bit", nullable: false)
+                    veh_priceperday = table.Column<decimal>(type: "decimal(19,5)", nullable: false),
+                    veh_is_available = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -53,8 +53,8 @@ namespace AutomobileRentals_EntityFramework.Migrations
                     bok_ref_person = table.Column<int>(type: "int", nullable: false),
                     bok_ref_vehicle = table.Column<int>(type: "int", nullable: false),
                     bok_startdate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Bok_enddate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    bok_totalprice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    bok_enddate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    bok_totalprice = table.Column<decimal>(type: "decimal(19,5)", nullable: false),
                     bok_isconfirmed = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>

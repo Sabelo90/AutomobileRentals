@@ -5,5 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutomobileRentals_EntityFramework\AutomobileRentals_EntityFramework.csproj" />
+  </ItemGroup>
 	
 </Project>

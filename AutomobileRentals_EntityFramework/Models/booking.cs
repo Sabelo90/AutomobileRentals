@@ -6,7 +6,7 @@
         public int bok_ref_person { get; set; }
         public int bok_ref_vehicle { get; set; }
         public DateTime bok_startdate { get; set; }
-        public DateTime Bok_enddate { get; set; }
+        public DateTime bok_enddate { get; set; }
         public decimal bok_totalprice { get; set; }
         public bool bok_isconfirmed { get; set; }
 

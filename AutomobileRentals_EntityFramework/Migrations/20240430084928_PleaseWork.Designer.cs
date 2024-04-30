@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AutomobileRentals_EntityFramework.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240429094643_firstDbDesign")]
-    partial class firstDbDesign
+    [Migration("20240430084928_PleaseWork")]
+    partial class PleaseWork
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,7 @@ namespace AutomobileRentals_EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("bok_id"));
 
-                    b.Property<DateTime>("Bok_enddate")
+                    b.Property<DateTime>("bok_enddate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("bok_isconfirmed")
@@ -49,7 +49,7 @@ namespace AutomobileRentals_EntityFramework.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("bok_totalprice")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(19, 5)");
 
                     b.HasKey("bok_id")
                         .HasName("pk_booking");
@@ -98,19 +98,19 @@ namespace AutomobileRentals_EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("veh_id"));
 
-                    b.Property<bool>("is_available")
-                        .HasColumnType("bit");
-
                     b.Property<string>("veh_brand")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("veh_is_available")
+                        .HasColumnType("bit");
 
                     b.Property<string>("veh_model")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("veh_priceperday")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(19, 5)");
 
                     b.Property<int>("veh_year")
                         .HasColumnType("int");
