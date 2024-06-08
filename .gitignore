@@ -5,3 +5,18 @@
 /.vs/New folder (2)/FileContentIndex/3ac4996e-edbb-4094-b559-70ffa1e0915b.vsidx
 /.vs/New folder (2)/FileContentIndex/499078bd-e068-46fb-b3c0-2d79319865a8.vsidx
 *.vsidx
+AutomobileRentals/obj/Debug/net8.0/AutomobileRentals.AssemblyInfo.cs
+AutomobileRentals/obj/Debug/net8.0/AutomobileRentals.AssemblyInfoInputs.cache
+AutomobileRentals/obj/Debug/net8.0/AutomobileRentals.assets.cache
+AutomobileRentals/obj/Debug/net8.0/AutomobileRentals.csproj.AssemblyReference.cache
+AutomobileRentals/obj/Debug/net8.0/AutomobileRentals.GeneratedMSBuildEditorConfig.editorconfig
+AutomobileRentals_EntityFramework/obj/Debug/net8.0/AutomobileRentals_EntityFramework.AssemblyInfo.cs
+AutomobileRentals_EntityFramework/obj/Debug/net8.0/AutomobileRentals_EntityFramework.AssemblyInfoInputs.cache
+AutomobileRentals_EntityFramework/obj/Debug/net8.0/AutomobileRentals_EntityFramework.assets.cache
+AutomobileRentals_EntityFramework/obj/Debug/net8.0/AutomobileRentals_EntityFramework.csproj.AssemblyReference.cache
+AutomobileRentals_EntityFramework/obj/Debug/net8.0/AutomobileRentals_EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+AutomobileRentalsCore/obj/Debug/net8.0/AutomobileRentalsCore.AssemblyInfo.cs
+AutomobileRentalsCore/obj/Debug/net8.0/AutomobileRentalsCore.AssemblyInfoInputs.cache
+AutomobileRentalsCore/obj/Debug/net8.0/AutomobileRentalsCore.assets.cache
+AutomobileRentalsCore/obj/Debug/net8.0/AutomobileRentalsCore.csproj.AssemblyReference.cache
+AutomobileRentalsCore/obj/Debug/net8.0/AutomobileRentalsCore.GeneratedMSBuildEditorConfig.editorconfig
