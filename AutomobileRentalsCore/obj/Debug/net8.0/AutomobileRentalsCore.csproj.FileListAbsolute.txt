@@ -38,3 +38,19 @@ C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder\AutomobileRent
 C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentals_EntityFramework.pdb
 C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.csproj.AssemblyReference.cache
 C:\Users\0112296244083\OneDrive - PSG\Desktop\Projects\New folder\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.csproj.CopyComplete
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentalsCore.deps.json
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentalsCore.dll
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentalsCore.pdb
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentals_EntityFramework.dll
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\bin\Debug\net8.0\AutomobileRentals_EntityFramework.pdb
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.csproj.AssemblyReference.cache
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.AssemblyInfoInputs.cache
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.AssemblyInfo.cs
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.csproj.CoreCompileInputs.cache
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.sourcelink.json
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.csproj.CopyComplete
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.dll
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\refint\AutomobileRentalsCore.dll
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\AutomobileRentalsCore.pdb
+C:\Users\0112296244083\OneDrive - PSG\Pictures\lastResort\AutomobileRentalsCore\obj\Debug\net8.0\ref\AutomobileRentalsCore.dll
