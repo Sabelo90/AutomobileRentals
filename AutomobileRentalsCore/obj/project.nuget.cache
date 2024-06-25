@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K935ri5zfxOmnWbmOBT5dZu1GlE+ewTs/RVq6RIz1pTF2BitDoDqK84s0lom2VLtiS2lc+KTviTimb18iKo1mA==",
+  "dgSpecHash": "s+N20cDGUgeJ5r9BVlC+ygJdczxQBsVbW+kCD+QNX70472KAN7U13T5QCKyapOqOwTwv/h/4RSz3/AJNZJXd2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Desktop\\Projects\\New folder\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
+  "projectFilePath": "C:\\Users\\0112296244083\\OneDrive - PSG\\Pictures\\lastResort\\AutomobileRentalsCore\\AutomobileRentalsCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\0112296244083\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\0112296244083\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutomobileRentals_EntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d55e2c0e732e6b0916d450999cb69be9239a78a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308fc41961c1dc6ab7978cd76c6fedbdaba72a70")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutomobileRentals_EntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutomobileRentals_EntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
