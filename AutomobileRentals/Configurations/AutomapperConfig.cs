@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutomobileRentals.EntityFramework.Models;
+using AutomobileRentals.Models.AccountModels;
 using AutomobileRentals.Models.VehicleModels;
 
 namespace AutomobileRentals.Configurations
@@ -8,7 +9,8 @@ namespace AutomobileRentals.Configurations
     {
         public AutomapperConfig()
         {
-                CreateMap<Vehicle , VehicleDTO>();
+                CreateMap<Vehicle , VehicleDTO>().ReverseMap();
+                CreateMap<User , SignUpDTO>().ReverseMap();
         }
     }
 }

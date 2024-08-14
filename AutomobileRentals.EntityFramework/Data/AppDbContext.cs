@@ -1,13 +1,13 @@
-﻿using AutomobileRentals.EntityFramework.Models;
+﻿using AutomobileRentals.EntityFramework.Data.SeedData;
+using AutomobileRentals.EntityFramework.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-    
+using System.Reflection.Emit;
+
 namespace AutomobileRentals.EntityFramework.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
-        public DbSet<User> Users { get; set; }
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<BookingStatus> BookingsStatus { get; set; }
@@ -16,6 +16,14 @@ namespace AutomobileRentals.EntityFramework.Data
         public DbSet<PaymentStatus> PaymentStatus { get; set; }
         public DbSet<PaymentMethod> PaymentMethod { get; set; }
         public DbSet<Payment> payments { get; set; }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new IdentityRoleConfiguation());
+        }
 
     }
 }
