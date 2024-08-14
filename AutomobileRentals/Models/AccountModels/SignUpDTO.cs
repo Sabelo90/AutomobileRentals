@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AutomobileRentals.Models.AccountModels
 {
-    public class SignUpDTO
+    public class SignUpDTO : AccountBaseDTO
     {
-        [Required]
-        public string Email { get; set; }
         [Required]
         public int PhoneNumber { get; set; }
         [Required]
@@ -15,7 +13,6 @@ namespace AutomobileRentals.Models.AccountModels
         public string LastName { get; set; }
         [Required]
         public string IdentityNumber { get; set; }
-        [Required]
-        public string Password { get; set; }
+      
     }
 }

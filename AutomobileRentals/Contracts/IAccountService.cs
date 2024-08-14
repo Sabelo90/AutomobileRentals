@@ -7,5 +7,6 @@ namespace AutomobileRentals.Contracts
     public interface IAccountService
     {
         Task<IEnumerable<IdentityError>> SignUpAsync(SignUpDTO signUpDTO);
+        Task<SignInResultDTO> SignInAsync(SignInDTO signInDTO);
     }
 }
