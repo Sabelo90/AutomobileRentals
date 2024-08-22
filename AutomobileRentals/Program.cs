@@ -2,6 +2,7 @@
 using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Data;
 using AutomobileRentals.EntityFramework.Models;
+using AutomobileRentals.Middleware;
 using AutomobileRentals.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -59,6 +60,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
