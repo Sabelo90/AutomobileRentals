@@ -1,6 +1,7 @@
 ﻿using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Data;
 using AutomobileRentals.EntityFramework.Models;
+using AutomobileRentals.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,7 @@ namespace AutomobileRentals.Services
 
             if (vehicle == null)
             {
-                throw new Exception("Vehicle not found");
+                throw new NotFoundException(nameof(GetVehicle),id);
             }
 
             return vehicle;
@@ -81,7 +82,7 @@ namespace AutomobileRentals.Services
             var vehicle = await GetByIdAsync(id);
             if (vehicle == null)
             {
-                return false;
+                throw new NotFoundException(nameof(DeleteVehicle), id);
             }
             await  RemoveAsync(id);
             return true;
