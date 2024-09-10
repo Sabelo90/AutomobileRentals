@@ -50,7 +50,11 @@ builder.Services.AddAuthentication(opts =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtToken:Key"])),
     };
 });
-
+builder.Services.AddResponseCaching(opts =>
+{
+    opts.MaximumBodySize = 1024;
+    opts.UseCaseSensitivePaths = true;
+});
 
 var app = builder.Build();
 
@@ -72,6 +76,18 @@ app.MapControllers();
 app.UseCors(opts =>
 {
     opts.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins("http://localhost:5173/");
+});
+
+app.UseResponseCaching();
+app.Use(async (context, next) =>
+{
+    context.Response.GetTypedHeaders().CacheControl = new Microsoft.Net.Http.Headers.CacheControlHeaderValue()
+    {
+        Public = true,
+        MaxAge = TimeSpan.FromSeconds(10)
+    };
+    context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Vary] = new string[] { "Accept-Encoding" };
+    await next();
 });
 
 app.Run();
