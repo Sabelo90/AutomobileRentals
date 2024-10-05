@@ -1,5 +1,8 @@
 ﻿using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Models;
+using AutomobileRentals.Models;
+using AutomobileRentals.Models.VehicleModels;
+using AutomobileRentals.Parameters;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AutomobileRentals.Controllers
@@ -16,12 +19,20 @@ namespace AutomobileRentals.Controllers
         }
 
         // GET: api/Vehicles
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<Vehicle>>> GetVehicle()
         {
             var result = await _vehicleService.GetVehicles();
             return Ok(result);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<PagedResult<VehicleDTO>>> GetVehicle( [FromQuery]QueryParameters queryParameters)
+        {
+            var result = await _vehicleService.GetVehicles(queryParameters);
+            return Ok(result);
+        }
+
 
         // GET: api/Vehicles/5
         [HttpGet("{id}")]

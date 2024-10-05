@@ -1,7 +1,11 @@
-﻿using AutomobileRentals.Contracts;
+﻿using AutoMapper;
+using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Data;
 using AutomobileRentals.EntityFramework.Models;
 using AutomobileRentals.Exceptions;
+using AutomobileRentals.Models;
+using AutomobileRentals.Models.VehicleModels;
+using AutomobileRentals.Parameters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +14,7 @@ namespace AutomobileRentals.Services
 {
     public class VehicleService : GenericService<Vehicle> , IVehicleService
     {
-        public VehicleService(AppDbContext context) : base(context)
+        public VehicleService(AppDbContext context , IMapper mapper) : base(context , mapper)
         {
                 
         }
@@ -19,6 +23,13 @@ namespace AutomobileRentals.Services
         public async Task<IEnumerable<Vehicle>> GetVehicles()
         {
             return await GetAllAsync();
+        }
+
+        // GET: api/Vehicles
+        [HttpGet]
+        public async Task<PagedResult<VehicleDTO>> GetVehicles([FromQuery] QueryParameters queryParameters)
+        {
+            return await GetAllAsync<VehicleDTO>(queryParameters); 
         }
 
         // GET: api/Vehicles/5
