@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace AutomobileRentals.EntityFramework.Migrations
 {
     /// <inheritdoc />
-    public partial class identityAdded : Migration
+    public partial class includeM : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -85,7 +87,9 @@ namespace AutomobileRentals.EntityFramework.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -324,6 +328,27 @@ namespace AutomobileRentals.EntityFramework.Migrations
                         principalTable: "PaymentStatus",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "b69b90d1-083c-41c4-b549-1aeff80483a5", null, "Client", "CLIENT" },
+                    { "c82da21b-1ca1-4a25-806f-de949b89ef16", null, "Admininstrator", "ADMININSTRATOR" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "carTypes",
+                columns: new[] { "Id", "Description", "ImageUrl", "Name" },
+                values: new object[,]
+                {
+                    { 1, "A small to medium-sized car with seating for four or more passengers.", "https://example.com/images/sedan.jpg", "Sedan" },
+                    { 2, "A sport utility vehicle with a higher ground clearance, capable of off-road driving.", "https://example.com/images/suv.jpg", "SUV" },
+                    { 3, "A compact car with a rear door that swings upwards, providing more cargo space.", "https://example.com/images/hatchback.jpg", "Hatchback" },
+                    { 4, "A stylish, two-door car often designed for performance and aesthetics.", "https://example.com/images/coupe.jpg", "Coupe" },
+                    { 5, "A car with a retractable roof, allowing open-air driving.", "https://example.com/images/convertible.jpg", "Convertible" }
                 });
 
             migrationBuilder.CreateIndex(

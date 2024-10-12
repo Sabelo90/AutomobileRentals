@@ -1,6 +1,7 @@
 ﻿using AutomobileRentals.Configurations;
 using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Data;
+using AutomobileRentals.EntityFramework.Data.SeedData;
 using AutomobileRentals.EntityFramework.Models;
 using AutomobileRentals.Middleware;
 using AutomobileRentals.Services;
@@ -31,6 +32,7 @@ opts.UseSqlServer(connString, opts =>
 builder.Services.AddAutoMapper(typeof(AutomapperConfig));
 builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
 builder.Services.AddScoped<IVehicleService, VehicleService>();
+builder.Services.AddScoped<ICarTypeService, CarTypeService>();
 builder.Services.AddIdentityCore<User>().AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
 builder.Services.AddScoped<IAccountService, AccountService>();
@@ -89,5 +91,21 @@ app.Use(async (context, next) =>
     context.Response.Headers[Microsoft.Net.Http.Headers.HeaderNames.Vary] = new string[] { "Accept-Encoding" };
     await next();
 });
+
+var scope = app.Services.CreateScope();
+var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+
+try
+{
+    context.Database.Migrate();
+    DbInitializer.Initialize(context);
+}
+catch (System.Exception)
+{
+
+    logger.LogError("A problem occured during migration");
+}
+
 
 app.Run();

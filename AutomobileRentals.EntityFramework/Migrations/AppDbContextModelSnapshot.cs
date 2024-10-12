@@ -17,7 +17,7 @@ namespace AutomobileRentals.EntityFramework.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -104,6 +104,14 @@ namespace AutomobileRentals.EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -111,6 +119,43 @@ namespace AutomobileRentals.EntityFramework.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("carTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "A small to medium-sized car with seating for four or more passengers.",
+                            ImageUrl = "https://example.com/images/sedan.jpg",
+                            Name = "Sedan"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "A sport utility vehicle with a higher ground clearance, capable of off-road driving.",
+                            ImageUrl = "https://example.com/images/suv.jpg",
+                            Name = "SUV"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "A compact car with a rear door that swings upwards, providing more cargo space.",
+                            ImageUrl = "https://example.com/images/hatchback.jpg",
+                            Name = "Hatchback"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "A stylish, two-door car often designed for performance and aesthetics.",
+                            ImageUrl = "https://example.com/images/coupe.jpg",
+                            Name = "Coupe"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "A car with a retractable roof, allowing open-air driving.",
+                            ImageUrl = "https://example.com/images/convertible.jpg",
+                            Name = "Convertible"
+                        });
                 });
 
             modelBuilder.Entity("AutomobileRentals.EntityFramework.Models.Payment", b =>
@@ -328,13 +373,13 @@ namespace AutomobileRentals.EntityFramework.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "973d8f4d-da07-4633-ac94-e87720c43a67",
+                            Id = "c82da21b-1ca1-4a25-806f-de949b89ef16",
                             Name = "Admininstrator",
                             NormalizedName = "ADMININSTRATOR"
                         },
                         new
                         {
-                            Id = "8d3c2e9a-6327-4a7a-801f-ccfff74fd9b5",
+                            Id = "b69b90d1-083c-41c4-b549-1aeff80483a5",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });

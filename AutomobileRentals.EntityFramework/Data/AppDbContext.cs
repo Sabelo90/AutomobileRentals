@@ -2,6 +2,8 @@
 using AutomobileRentals.EntityFramework.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 using System.Reflection.Emit;
 
 namespace AutomobileRentals.EntityFramework.Data
@@ -23,7 +25,9 @@ namespace AutomobileRentals.EntityFramework.Data
         {
             base.OnModelCreating(builder);
             builder.ApplyConfiguration(new IdentityRoleConfiguation());
+            builder.ApplyConfiguration(new CarTypeConfiguration());
         }
 
     }
+
 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AutomobileRentals.EntityFramework.Data.SeedData
 {
-    internal class IdentityRoleConfiguation : IEntityTypeConfiguration<IdentityRole>
+    public class IdentityRoleConfiguation : IEntityTypeConfiguration<IdentityRole>
     {
         public void Configure(EntityTypeBuilder<IdentityRole> builder)
         {
