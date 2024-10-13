@@ -2,6 +2,12 @@
 using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Data;
 using AutomobileRentals.EntityFramework.Models;
+using AutomobileRentals.Exceptions;
+using AutomobileRentals.Models;
+using AutomobileRentals.Models.CarTypeModels;
+using AutomobileRentals.Parameters;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AutomobileRentals.Services
 {
@@ -16,92 +22,78 @@ namespace AutomobileRentals.Services
         {
             return await GetAllAsync();
         }
-        //// GET: api/Vehicles
-        //[HttpGet]
-        //public async Task<IEnumerable<Vehicle>> GetVehicles()
-        //{
-        //    return await GetAllAsync();
-        //}
-
-        //// GET: api/Vehicles
-        //[HttpGet]
-        //public async Task<PagedResult<VehicleDTO>> GetVehicles([FromQuery] QueryParameters queryParameters)
-        //{
-        //    return await GetAllAsync<VehicleDTO>(queryParameters); 
-        //}
-
-        //// GET: api/Vehicles/5
-        //[HttpGet("{id}")]
-        //public async Task<Vehicle> GetVehicle(int id)
-        //{
-        //    var vehicle = await GetByIdAsync(id);
-
-        //    if (vehicle == null)
-        //    {
-        //        throw new NotFoundException(nameof(GetVehicle),id);
-        //    }
-
-        //    return vehicle;
-        //}
-
-        //// PUT: api/Vehicles/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<bool> PutVehicle(int id, Vehicle vehicle)
-        //{
-        //    if (id != vehicle.Id)
-        //    {
-        //        return false;
-        //    }
 
 
-        //    try
-        //    {
-        //        await UpdateAsync(vehicle);
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!await VehicleExists(id))
-        //        {
-        //            return false;
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+        [HttpGet]
+        public async Task<PagedResult<CarTypeDTO>> GetCarTypes([FromQuery] QueryParameters queryParameters)
+        {
+            return await GetAllAsync<CarTypeDTO>(queryParameters);
+        }
 
-        //    return false;
-        //}
+        public async Task<CarType> GetCarType(int id)
+        {
+            var  carType = await GetByIdAsync(id);
 
-        //// POST: api/Vehicles
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<Vehicle> PostVehicle(Vehicle vehicle)
-        //{
-        //   var vehicleCreated =  await AddAsync(vehicle);
+            if (carType == null)
+            {
+                throw new NotFoundException(nameof(GetCarType), id);
+            }
 
-        //    return vehicleCreated;
-        //}
+            return carType;
+        }
 
-        //// DELETE: api/Vehicles/5
-        //[HttpDelete("{id}")]
-        //public async Task<bool> DeleteVehicle(int id)
-        //{
-        //    var vehicle = await GetByIdAsync(id);
-        //    if (vehicle == null)
-        //    {
-        //        throw new NotFoundException(nameof(DeleteVehicle), id);
-        //    }
-        //    await  RemoveAsync(id);
-        //    return true;
-        //}
+       
+        public async Task<bool> PutCarType(int id, CarType carType)
+        {
+            if (id != carType.Id)
+            {
+                return false;
+            }
 
-        //public async Task<bool> VehicleExists(int id)
-        //{
-        //    var vehicle = await GetByIdAsync(id);
-        //    return vehicle != null;
-        //}
 
+            try
+            {
+                await UpdateAsync(carType);
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await CarTypeExists(id))
+                {
+                    return false;
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return false;
+        }
+
+        public async Task<CarType> PostCarType(CarType carType)
+        {
+            var carTypeCreated = await AddAsync(carType);
+
+            return carTypeCreated;
+        }
+
+        public async Task<bool> DeleteCarType(int id)
+        {
+            var carType = await GetByIdAsync(id);
+            if (carType == null)
+            {
+                throw new NotFoundException(nameof(DeleteCarType), id);
+            }
+            await  RemoveAsync(id);
+            return true;
+        }
+
+        public async Task<bool> CarTypeExists(int id)
+        {
+            var vehicle = await GetByIdAsync(id);
+            return vehicle != null;
+        }
+
+        
     }
 }

@@ -1,7 +1,7 @@
 ﻿using AutomobileRentals.Contracts;
 using AutomobileRentals.EntityFramework.Models;
 using AutomobileRentals.Models;
-using AutomobileRentals.Models.VehicleModels;
+using AutomobileRentals.Models.CarTypeModels;
 using AutomobileRentals.Parameters;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,75 +11,68 @@ namespace AutomobileRentals.Controllers
     [ApiController]
     public class CarTypeController : ControllerBase
     {
-        private readonly ICarTypeService _carType;
+        private readonly ICarTypeService _carTypeService;
 
         public CarTypeController(ICarTypeService carType)
         {
-            _carType = carType;
+            _carTypeService = carType;
         }
 
         // GET: api/Vehicles
         [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<CarType>>> GetVehicle()
         {
-            var result = await _carType.GetAllAsync();
+            var result = await _carTypeService.GetAllAsync();
             return Ok(result);
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<PagedResult<VehicleDTO>>> GetVehicle( [FromQuery]QueryParameters queryParameters)
-        //{
-        //    var result = await _vehicleService.GetVehicles(queryParameters);
-        //    return Ok(result);
-        //}
+        [HttpGet]
+        public async Task<ActionResult<PagedResult<CarTypeDTO>>> GetCarTypes([FromQuery] QueryParameters queryParameters)
+        {
+            var result = await _carTypeService.GetCarTypes(queryParameters);
+            return Ok(result);
+        }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<CarType>> GetVehicle(int id)
+        {
+            var carType = await _carTypeService.GetCarType(id);
 
-        //// GET: api/Vehicles/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Vehicle>> GetVehicle(int id)
-        //{
-        //    var vehicle = await _vehicleService.GetVehicle(id);
+            if (carType == null)
+            {
+                return NotFound();
+            }
 
-        //    if (vehicle == null)
-        //    {
-        //        return NotFound();
-        //    }
+            return carType;
+        }
 
-        //    return vehicle;
-        //}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCarType(int id, CarType carType)
+        {
+            var result = await _carTypeService.PutCarType(id, carType);
+            return Ok(result);
+        }
 
-        //// PUT: api/Vehicles/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutVehicle(int id, Vehicle vehicle)
-        //{
-        //    var result = await _vehicleService.PutVehicle(id, vehicle);
-        //    return Ok(result);
-        //}
+        [HttpPost]
+        public async Task<ActionResult<Vehicle>> PostCarType(CarType carType)
+        {
+            var result = await _carTypeService.PostCarType(carType);
+            return Ok(result);
 
-        //// POST: api/Vehicles
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Vehicle>> PostVehicle(Vehicle vehicle)
-        //{
-        //    var result = await _vehicleService.PostVehicle(vehicle);
-        //    return Ok(result);
+        }
 
-        //}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCarType(int id)
+        {
+            var result = await _carTypeService.DeleteCarType(id);
+            return Ok(result);
+        }
 
-        //// DELETE: api/Vehicles/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteVehicle(int id)
-        //{
-        //    var result = await _vehicleService.DeleteVehicle(id);
-        //    return Ok(result);
-        //}
-
-        //[HttpGet, Route("/vehicle-exists")]
-        // public async Task<bool> VehicleExists(int id)
-        //{
-        //    var result = await _vehicleService.VehicleExists(id);
-        //    return result;
-        //}
+        [HttpGet, Route("/car-type-exists")]
+        public async Task<bool> VehicleExists(int id)
+        {
+            var result = await _carTypeService.CarTypeExists(id);
+            return result;
+        }
     }
 }
