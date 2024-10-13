@@ -57,6 +57,10 @@ builder.Services.AddResponseCaching(opts =>
     opts.MaximumBodySize = 1024;
     opts.UseCaseSensitivePaths = true;
 });
+builder.Services.AddCors(opts =>
+{
+    opts.AddPolicy("AllowAll", opts => opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 
 var app = builder.Build();
 
@@ -75,10 +79,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseCors(opts =>
-{
-    opts.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins("http://localhost:5173/");
-});
+app.UseCors("AllowAll");
 
 app.UseResponseCaching();
 app.Use(async (context, next) =>
