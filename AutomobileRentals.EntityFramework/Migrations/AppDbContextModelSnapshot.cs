@@ -125,36 +125,29 @@ namespace AutomobileRentals.EntityFramework.Migrations
                         {
                             Id = 1,
                             Description = "A small to medium-sized car with seating for four or more passengers.",
-                            ImageUrl = "https://example.com/images/sedan.jpg",
+                            ImageUrl = "https://www.carmag.co.za/wp-content/uploads/2023/02/Toyota-Corolla-Quest-1.8-Plus-jpg.webp",
                             Name = "Sedan"
                         },
                         new
                         {
                             Id = 2,
                             Description = "A sport utility vehicle with a higher ground clearance, capable of off-road driving.",
-                            ImageUrl = "https://example.com/images/suv.jpg",
+                            ImageUrl = "https://robbreport.com/wp-content/uploads/2023/04/12-6.jpg?w=1000",
                             Name = "SUV"
                         },
                         new
                         {
                             Id = 3,
                             Description = "A compact car with a rear door that swings upwards, providing more cargo space.",
-                            ImageUrl = "https://example.com/images/hatchback.jpg",
+                            ImageUrl = "https://cfx-wp-images.imgix.net/2022/05/2022-VW-GTI-scaled.jpg?auto=compress%2Cformat&ixlib=php-3.3.1&s=4a679dbe7f94feeacd09f0db2f1de5da",
                             Name = "Hatchback"
                         },
                         new
                         {
                             Id = 4,
                             Description = "A stylish, two-door car often designed for performance and aesthetics.",
-                            ImageUrl = "https://example.com/images/coupe.jpg",
+                            ImageUrl = "https://cdn.jdpower.com/JDPA_2020%20Ford%20Mustang%20Yellow%20Rear%20View.jpg",
                             Name = "Coupe"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "A car with a retractable roof, allowing open-air driving.",
-                            ImageUrl = "https://example.com/images/convertible.jpg",
-                            Name = "Convertible"
                         });
                 });
 
@@ -373,13 +366,13 @@ namespace AutomobileRentals.EntityFramework.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c82da21b-1ca1-4a25-806f-de949b89ef16",
+                            Id = "70a486a3-b274-47e1-bf1b-fd4c4542a199",
                             Name = "Admininstrator",
                             NormalizedName = "ADMININSTRATOR"
                         },
                         new
                         {
-                            Id = "b69b90d1-083c-41c4-b549-1aeff80483a5",
+                            Id = "f83af89a-fd27-44d4-b7a2-6cdc49a02f51",
                             Name = "Client",
                             NormalizedName = "CLIENT"
                         });
